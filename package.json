@@ -1,0 +1,54 @@
+{
+  "name": "electron-angular2",
+  "version": "1.0.0",
+  "description": "Electron & Angular2 Barebones",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "set NODE_ENV=development&& webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/73cn0109y/electron-angular2.git"
+  },
+  "keywords": [
+    "electron",
+    "angular2",
+    "electron+angular2"
+  ],
+  "author": "David Sattler <dsmine1737@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/73cn0109y/electron-angular2/issues"
+  },
+  "homepage": "https://github.com/73cn0109y/electron-angular2#readme",
+  "dependencies": {
+    "@angular/common": "*",
+    "@angular/compiler": "*",
+    "@angular/core": "*",
+    "@angular/forms": "*",
+    "@angular/http": "*",
+    "@angular/material": "*",
+    "@angular/platform-browser": "*",
+    "@angular/platform-browser-dynamic": "*",
+    "@angular/router": "*",
+    "electron-json-storage": "*",
+    "rxjs": "*",
+    "zone.js": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "angular2-template-loader": "*",
+    "core-js": "*",
+    "electron": "*",
+    "electron-builder": "*",
+    "html-webpack-plugin": "*",
+    "node-sass": "*",
+    "raw-loader": "*",
+    "sass-loader": "*",
+    "ts-loader": "*",
+    "ts-node": "*",
+    "typescript": "*",
+    "webpack": "*"
+  }
+}
